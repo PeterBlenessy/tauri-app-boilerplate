@@ -1,13 +1,18 @@
 {
   "name": "tauri-app-boilerplate",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "release:draft": "CHANGELOG=$(sed -n \"/^## v$npm_package_version/,/^## /p\" CHANGELOG.md | sed '1d;$d') && gh release create v$npm_package_version --draft --title v$npm_package_version --notes \"$CHANGELOG\" --repo PeterBlenessy/traygpt",
+    "release:publish": "gh release edit v$npm_package_version --draft=false --latest",
+    "git:push": "CHANGELOG=$(sed -n \"/^## v$npm_package_version/,/^## /p\" CHANGELOG.md | sed '1d;$d') && git add . && git commit -m \"$CHANGELOG\" && git push -u origin master",
+    "cicd": "yarn git:push && yarn release:draft && yarn release:publish"
+
   },
   "dependencies": {
     "vue": "^3.2.45",
