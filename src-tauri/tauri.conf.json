@@ -29,9 +29,9 @@
       ],
       "identifier": "com.addable.tauri-app-boilerplate",
       "targets": "all",
-      "macOsSign": {
+      "macOS": {
         "signingIdentity": "Mac Developer ID Application: ADDABLE AB"
-      },
+      }
     },
     "security": {
       "csp": null
