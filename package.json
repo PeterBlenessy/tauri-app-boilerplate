@@ -10,7 +10,7 @@
     "tauri": "tauri",
     "release:draft": "CHANGELOG=$(sed -n \"/^## v$npm_package_version/,/^## /p\" CHANGELOG.md | sed '1d;$d') && gh release create v$npm_package_version --draft --title v$npm_package_version --notes \"$CHANGELOG\" --repo PeterBlenessy/traygpt",
     "release:publish": "gh release edit v$npm_package_version --draft=false --latest",
-    "git:push": "CHANGELOG=$(sed -n \"/^## v$npm_package_version/,/^## /p\" CHANGELOG.md | sed '1d;$d') && git add . && git commit -m \"$CHANGELOG\" && git push -u origin master",
+    "git:push": "CHANGELOG=$(sed -n \"/^## v$npm_package_version/,/^## /p\" CHANGELOG.md | sed '1d;$d') && git add . && git commit -m \"$CHANGELOG\" && git push -u origin main",
     "cicd": "yarn git:push && yarn release:draft && yarn release:publish"
 
   },
