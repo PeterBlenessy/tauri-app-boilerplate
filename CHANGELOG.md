@@ -20,7 +20,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### [MINOR]
 
-## v0.0.3 - [UNRELEASED]
+### [PATCH]
+- Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
+- Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
+
+## v0.0.4 - [UNRELEASED]
+
+## v0.0.3 - 2023-05-21
+- Added support for [macOS code signing](https://tauri.app/v1/guides/distribution/sign-macos).
 
 ## v0.0.2 - 2023-05-21
 - Changed the bundle identifier in `tauri.conf.json > tauri > bundle > identifier` from `com.tauri.dev` to `com.addable.tauri-app-boilerplate`.
