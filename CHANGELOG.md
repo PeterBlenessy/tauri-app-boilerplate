@@ -23,9 +23,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### [PATCH]
 - Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
-- Add support for Updater.
 
-## v0.0.6 - [UNRELEASED]
+## v0.0.7 - [UNRELEASED]
+
+## v0.0.6 - 2023-05-23
+- Added support for Updater.
 
 ## v0.0.5 - 2023-05-21
 - Removed signing identity from tauri.conf.json.
