@@ -24,7 +24,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
 
-## v0.0.12 - [UNRELEASED]
+## v0.0.13 - [UNRELEASED]
+
+## v0.0.12 - 2023-05-24
+- Test release in order to verify that Updater works now that relevant artefacts are automatically built, signed and released using Github Actions.
 
 ## v0.0.11 - 2023-05-24
 - Added conditional check for platform being macos-latest when setting aarch64-apple-darwin as target to avoid it being installed on windows and linux platforms.
