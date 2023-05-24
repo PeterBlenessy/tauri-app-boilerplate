@@ -24,7 +24,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
 
-## v0.0.8 - [UNRELEASED]
+## v0.0.9 - [UNRELEASED]
+
+## v0.0.8 - 2023-05-23
+- Changed GitHub Actions matrix settings to include all macOS architectures.
 
 ## v0.0.7 - 2023-05-23
 - Added environment variables TAURI_PRIVATE_KEY and TAURI_KEY_PASSWORD to release.yml. Needed by Updater.
