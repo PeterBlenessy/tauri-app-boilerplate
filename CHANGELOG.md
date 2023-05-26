@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
 
 ## v0.0.17 - [UNRELEASED]
+- Updated README with info on how to get started with this boilerplate.
 
 ## v0.0.16 - 2023-05-26
 - Bumped version to test Updater after release. Hopefully the last time.
