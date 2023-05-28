@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Print objects
         run: echo ${{ github.ref_name }}
-             echo ${{ github }}
-             echo ${{ github.event }}
-             echo ${{ github.event.payload }}
+             echo ${{ fromJson(github) }}
+             echo ${{ fromJson(github.event) }}
+             echo ${{ fromJson(github.event.payload) }}
