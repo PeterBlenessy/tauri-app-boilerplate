@@ -10,8 +10,14 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Print objects
+      - name: Print ref_name
         run: echo ${{ github.ref_name }}
-             echo ${{ fromJson(github) }}
-             echo ${{ fromJson(github.event) }}
-             echo ${{ fromJson(github.event.payload) }}
+        
+      - name: Print github
+        run: echo ${{ fromJson(github) }}
+        
+      - name: Print github.event
+        run: echo ${{ fromJson(github.event) }}
+
+      - name: Print github.event.payload
+        run: echo ${{ fromJson(github.event.payload) }}
