@@ -1,5 +1,8 @@
 name: Info
 on:
+  push:
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 jobs:
