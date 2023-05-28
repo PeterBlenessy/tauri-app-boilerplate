@@ -1,0 +1,20 @@
+name: Info
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    permissions:
+      contents: write
+
+    runs-on: macos-latest
+
+    steps:
+      - name: Print objects
+        run: echo ${{ github.ref_name }}
+             echo ${{ github }}
+             echo ${{ github.event }}
+             echo ${{ github.event.payload }}
