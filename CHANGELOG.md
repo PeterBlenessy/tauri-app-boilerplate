@@ -24,7 +24,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
 
-## v0.0.17 - [UNRELEASED]
+## v0.1.1 - [UNRELEASED]
+
+## v0.1.0 - 2023-05-29
+- Removed info.yml from workflow actions.
+- Fixed GitHub reference in README.
+
+## v0.0.18 - 2023-05-28
+- Updated GitHub Actions to dynamically set the release description from the commit message in the event's context
+
+## v0.0.17 - 2023-05-26
 - Updated README with info on how to get started with this boilerplate.
 
 ## v0.0.16 - 2023-05-26

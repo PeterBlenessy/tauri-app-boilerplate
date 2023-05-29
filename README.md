@@ -8,7 +8,7 @@ This template should help get you started developing with Tauri + Vue 3 in Vite.
 
 ## Getting started
 
-* Download the zip-archive](https://github.com/PeterBlenessy/TrayGPT/archive/refs/heads/master.zip) and unpack it.
+* Download the zip-archive](https://github.com/PeterBlenessy/tauri-app-boilerplate/archive/refs/heads/master.zip) and unpack it.
 * Install [prerequisites for developing Tauri apps](https://tauri.app/v1/guides/getting-started/prerequisites)
 * Run `yarn tauri dev` to launch the app.
 
