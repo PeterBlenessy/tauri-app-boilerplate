@@ -24,7 +24,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add support for [Windows code signing](https://tauri.app/v1/guides/distribution/sign-windows).
 - Add support for [Linux code signing](https://tauri.app/v1/guides/distribution/sign-linux).
 
-## v0.1.1 - [UNRELEASED]
+## v0.1.2 - [UNRELEASED]
+
+## v0.1.1 - 2023-06-06
+- Fixed CVE-2023-34092.
 
 ## v0.1.0 - 2023-05-29
 - Removed info.yml from workflow actions.
