@@ -26,6 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [UNRELEASED]
 
+## v0.1.3 - 2023-10-22
+- Added APPLE_TEAM_ID as environment variable available for release.yml to comply with new requirements for notarization.
+
 ## v0.1.2 - 2023-10-22
 - Upgraded packages to latest versions.
 - Fixed CVE-2023-46115.
